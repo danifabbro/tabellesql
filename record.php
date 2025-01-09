@@ -34,6 +34,7 @@ if($connessione->query($sql) === true){
     echo "Errore durante ultimo inserimento " .  $connessione->error;
 }
 
-$connessione->close();
+$connessione->close(); // chiudo la connessione
+
 ?>
 
