@@ -3,3 +3,7 @@ body{
     max-width:100%;
     font-family:"outfit" , serif;
 }
+#form{
+    padding:2rem;
+    background-color: antiquewhite;
+}
