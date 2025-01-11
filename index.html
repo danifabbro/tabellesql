@@ -5,18 +5,26 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Gothic+A1&family=Outfit:wght@100..900&family=Oxanium:wght@200..800&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
-    <!--outfit font-->
+    <!--outfit font-->  
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="stile.css" type="text/css">
-    <title>Progetto Database</title>
+    <title> Progetto Database </title>
 </head>
 <body>
     <header>
 
     </header>
     <main>
-
+        <form action="record.php" method="post">
+            <label for="nome">Nome: </label>
+            <input type="text" name="nome" placeholder="Inserisci il nome" id="nome">
+            <label for="cognome">Cognome: </label>
+            <input type="text" name="cognome" placeholder="Inserisci il cognome" id="cognome">
+            <label for="mail">Email: </label>
+            <input type="mail" name="mail" placeholder="Inserisci la mail" id="mail">
+            <input type="submit" name="invia" id="invia">
+        </form>
     </main>
     <footer>
 
